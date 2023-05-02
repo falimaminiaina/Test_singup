@@ -37,10 +37,10 @@ const SondageSchema = new Schema(
             question: {
                 type: String,
                 enum:[
-                Question_type.No,
-                Question_type.Yes_fro_Recruitment,    
-                Question_type.Yes_for_employee_management,
-                Question_type.Yes_for_recruiting_and_managing_employees, 
+                Question_type.NO,
+                Question_type. YES_FOR_RECRUITMENT,    
+                Question_type.YES_FOR_EMPLOYEE_MANAGEMENT,
+                Question_type.YES_FOR_RECRUITING_AND_MANAGING_EMPLOYEES, 
                 ]
             },
             careerSite: {
