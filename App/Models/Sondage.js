@@ -26,7 +26,7 @@ const SondageSchema = new Schema(
                 Need_Type.ORGANIGRAMME,
                 Need_Type.MATERIAL_INVENTORY,
                 Need_Type.PERFORMANCE_MONITORING,
-                Need_Type.FLOW_EMPLOYEES - INTEGRATION,
+                Need_Type.FLOW_EMPLOYEES_INTEGRATION,
                 Need_Type.WORK_SCHEDULE_HOLIDAYS,
                 ],
                 default:[]
@@ -38,7 +38,7 @@ const SondageSchema = new Schema(
                 type: String,
                 enum:[
                 Question_type.NO,
-                Question_type. YES_FOR_RECRUITMENT,    
+                Question_type.YES_FOR_RECRUITMENT,    
                 Question_type.YES_FOR_EMPLOYEE_MANAGEMENT,
                 Question_type.YES_FOR_RECRUITING_AND_MANAGING_EMPLOYEES, 
                 ]
